@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: select-front
+
+server:
+  port: 7007
