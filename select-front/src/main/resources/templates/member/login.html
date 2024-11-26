@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <script th:src="@{/js/login.js}"></script>
+    <link th:href="@{/css/login.css}" rel="stylesheet">
+    <link th:href="@{/css/common.css}" rel="stylesheet">
+    <title>선택창</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWbyFM</title>
+</head>
+<body>
+<div class="navbar">
+    <!-- Rectangle 7 (background gradient) -->
+    <div class="rectangle7"></div>
+
+    <!-- Logo Image -->
+    <div class="logo"></div>
+
+    <!-- Menu Items -->
+    <div class="menu-item menu-1">메뉴소개</div>
+    <div class="menu-item menu-2">이용방법</div>
+    <div class="menu-item menu-3">새소식</div>
+    <div class="menu-item menu-4">가맹점</div>
+    <div class="menu-item menu-5">온라인 주문</div>
+
+    <!-- Additional Options -->
+    <div class="extra-item logout">로그아웃</div>
+    <div class="extra-item cart">장바구니</div>
+    <div class="extra-item mypage">마이페이지</div>
+</div>
+
+<!-- Social Login Section -->
+<div class="social_login">
+    <div class="rectangle10">
+        <div class="title-less"></div>
+        <div class="kakao_login"></div>
+        <div class="web_neutral"></div>
+    </div>
+</div>
+
+<!-- ID/Password Input Section -->
+<div class="rectangle11">
+    <div class="id_section">
+        <div class="rectangle12">
+            <label for="id_input" class="id_label">ID</label>
+            <input id="id_input" type="text" placeholder="Enter your ID">
+        </div>
+    </div>
+    <div class="pw_section">
+        <div class="rectangle13">
+            <label for="pw_input" class="pw_label">PASSWORD</label>
+            <input id="pw_input" type="password" placeholder="Enter your password">
+        </div>
+    </div>
+
+    <!-- Login Button -->
+    <div class="login_button">
+        <div class="login_text">로그인</div>
+    </div>
+
+    <!-- Sign-Up and Find Password Links -->
+    <div class="signup_button">
+        <a href="#">회원가입</a>
+    </div>
+    <div class="findpw_button">
+        <a href="#">아이디/비밀번호찾기</a>
+    </div>
+</div>
+
+
+<footer>
+    <p>서울시 서초구 강남대로 535 프린스빌딩 15층 대표 : INSOO CHO(인수조) 전화 : 02-797-5036 사업자등록번호 : 101-84-04143</p>
+</footer>
+</body>
+</html>
